@@ -5,10 +5,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.boss {
-    width: 100%;
-    height: 2250px;
-}
 .header {
     width: 100%;
     height: 100vh;
@@ -19,7 +15,7 @@ body {
 }
 .conteiner {
     max-width: 1200px;
-    width: 1000px;
+    width: 80%;
     margin: 0px auto;
 }
 .header-iner {
@@ -34,7 +30,6 @@ body {
 .header-logotip {
     width: 20%;
     height: 50px;
-    margin-left: 80px;
     font-size: 40px;
 }
 .header-menu {
@@ -42,7 +37,7 @@ body {
     height: 50px;
     display: flex;
     flex-direction: row;
-    margin-left: 500px;
+	justify-content: flex-end;
 }
 ul{
     display: flex;
@@ -67,8 +62,6 @@ li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 27%;
-    margin-top: 6%;
 }
 .center-p {
     color: rgb(250, 250, 250);
@@ -100,9 +93,13 @@ li:hover {
 .knopka-priz:not(:hover) {
     transition: 0.5s;
 }
+
+
+/* content */
+
 .content {
     width: 100%;
-    height: 66vh;
+	
     background-color: rgb(255, 255, 255);
 }
 .content-iner {
@@ -138,31 +135,16 @@ li:hover {
     height: 420px;
     display: flex;
     flex-direction: row;
-}
-.AAA {
-    width: 33%;
-    height: 420px;
-    max-width: 34%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	justify-content: space-between;
 }
 .figna {
-    width: 33%;
+    width: 30%;
     height: 420px;
-    max-width: 34%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
-.koleso {
-    width: 33%;
-    height: 420px;
-    max-width: 34%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
 .parrlex1 .underline-text {
     border-color: rgba(239, 239, 239, .5);
     border-bottom-style: solid;
@@ -197,6 +179,20 @@ li:hover {
     background-color: rgb(255, 0, 0);
     color: rgb(250, 250, 250);
 }
+.main-text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+.main-text p {
+	text-align: center;
+}
+.main-text h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
 .icon-set .fa-code .fa-font .fa-support {
     font-size: 40px;
     width: 100%;
@@ -246,10 +242,9 @@ li:hover {
 }
 .dtext {
     color: rgb(255, 255, 255);
-    margin-left: 570px;
-    margin-bottom: 130px;
-    margin-top: 0px;
+    margin-top: 20px;
     font-size: 20px;
+    margin-left: 270px;
 }
 @media screen and (max-width: 1200px){
     .boss {
